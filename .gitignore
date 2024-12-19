@@ -4,3 +4,4 @@ __pycache__/
 
 results/
 *.pkl
+!NLP/model/XGB-ethnicityFinder_18000.pkl
