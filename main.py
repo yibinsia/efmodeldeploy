@@ -30,7 +30,7 @@ client = AzureOpenAI(
 )
 
 # Load the pre-trained model
-MODEL_PATH = BASE_DIR / "NLP/model/ML-ethnicityFinder.pkl"
+MODEL_PATH = BASE_DIR / "NLP/model/XGB-ethnicityFinder_18000.pkl"
 with open(MODEL_PATH, 'rb') as f:
     model = pickle.load(f)
 
