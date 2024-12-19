@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+embedding_log.log
+results/
+*.pkl
